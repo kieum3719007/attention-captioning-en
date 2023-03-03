@@ -1,0 +1,20 @@
+{% extends "index.html" %}
+{% block title %}Results{% endblock %}
+{% block result %}
+    <div class="row d-flex justify-content-center">
+        <label class="col-xs-4 p-2"><b>{{ sentence }}</b></label>
+    </div>
+{% endblock %}
+
+{% block image%}
+<div class="col d-flex justify-content-center">
+    <img id="preview" src="{{url_for('static', filename='images/temp.png')}}" alt="upload image">
+</div>
+ {% endblock %}
+
+ {% block button %}
+        <input type="submit"     class="btn btn-light form-item" value="Next Image" id="submit" />
+{% endblock %}
+
+{% block file %}
+{% endblock %}

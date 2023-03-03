@@ -1,0 +1,29 @@
+h1 {
+    border: 2px #eee solid;
+    color: blue;
+    text-align: center;
+    padding: 10px;
+}
+
+image {
+    margin: 0 auto;
+}
+
+.image-container {
+    min-width: 224px;
+    min-height: 224px;
+    margin: 10px 20% ;
+    border: blue solid 1px;
+}
+
+/* .container {
+    width: 50%;
+    margin: auto;
+} */
+
+.form-item {
+    min-width: 30%;
+    width: fit-content;
+    align-self: center;
+    padding: 10px;
+}
